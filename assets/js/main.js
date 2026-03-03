@@ -146,6 +146,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Portfolio data
     const portfolioData = [
+        {
+            title: "Personal Portfolio & Resume Website",
+            description: "A modern responsive developer portfolio built with HTML, CSS, and JavaScript. The website presents my projects, technical stack, and professional experience with optimized performance and clean UI design.",
+            image: "./assets/img/site1.png",
+            technologies: ["HTML5", "CSS3", "JavaScript"],
+            liveLink: "https://aleksandrteslenko.github.io/resume",
+            repoLink: "https://github.com/AleksandrTeslenko/resume"
+        }
     ];
 
     // Render education section
