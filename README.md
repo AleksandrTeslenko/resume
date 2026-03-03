@@ -20,6 +20,7 @@ https://github.com/AleksandrTeslenko/resume
 * Links to live demos and GitHub repositories
 * Optimized static website performance
 * Clean and modern UI
+* GitHub Pages deployment
 
 ## Technologies Used
 
@@ -30,11 +31,18 @@ https://github.com/AleksandrTeslenko/resume
 
 ## Project Structure
 
-assets
-├── css
-├── fonts
-├── img
-├── js
+resume/
+│
+├── assets/
+│ ├── css/
+│ ├── fonts/
+│ ├── icons/
+│ ├── img/
+│ └── js/
+│
+├── index.html
+├── favicon.ico
+└── README.md
 
 ## Installation
 
@@ -53,6 +61,10 @@ The website is deployed using GitHub Pages.
 ## Author
 
 Oleksandr Teslenko
-Full-Stack Web Developer
+Full Stack Web Developer
 
 GitHub: https://github.com/AleksandrTeslenko
+
+## License
+
+This project is licensed under the MIT License.
