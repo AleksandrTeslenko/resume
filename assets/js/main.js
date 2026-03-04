@@ -149,6 +149,14 @@ document.addEventListener('DOMContentLoaded', function () {
             technologies: ["HTML5", "CSS3", "JavaScript"],
             liveLink: "https://aleksandrteslenko.github.io/resume",
             repoLink: "https://github.com/AleksandrTeslenko/resume"
+        },
+        {
+            title: "Valentine's Day Interactive Love Page",
+            description: "A creative single-page website built as a digital Valentine’s card. The project includes animated UI effects, smooth transitions, and interactive elements implemented with vanilla JavaScript, showcasing front-end creativity and clean responsive layout.",
+            image: "./assets/img/site2.png",
+            technologies: ["HTML5", "CSS3", "JavaScript"],
+            liveLink: "https://aleksandrteslenko.github.io/my-valentine",
+            repoLink: "https://aleksandrteslenko.github.io/my-valentine"
         }
     ];
 
