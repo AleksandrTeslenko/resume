@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             company: "Tocan Solutions",
             position: "Full Stack Web Developer",
-            startDate: "Jan 2020",
+            startDate: "July 2017",
             endDate: "Present",
             responsibilities: [
                 "Develop and maintain complex enterprise logistics web applications used for transportation management and operational planning",
