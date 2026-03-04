@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 "Participate in system architecture discussions and improve existing legacy modules",
                 "Conduct code reviews and support knowledge sharing within the development team"
             ],
-            technologies: ["Ext JS", "Slim", "Docker", "Kubernetes", "GitLab/GitHub", "CI/CD", "Swagger", "RabbitMQ", "Postman", "Figma", "Elasticsearch", "Rancher", "JavaScript", "PHP", "HTML5/CSS3", "MySQL/MariaDB/PostgreSQL", "XML/JSON", "Google Maps/OpenStreetMap", "Bootstrap/jQuery/VisJS", "Azure Blob storage/Single sign on/Active Directory"]
+            technologies: ["PHP", "JavaScript", "HTML5/CSS3", "MySQL/MariaDB/PostgreSQL", "Ext JS", "Bootstrap/jQuery/VisJS", "Slim", "Docker", "Kubernetes", "GitLab/GitHub", "CI/CD", "Swagger", "RabbitMQ", "Postman", "Figma", "Elasticsearch", "Rancher", "XML/JSON", "Google Maps/OpenStreetMap", "Azure Blob storage/Single sign on/Active Directory"]
         },
         {
             company: "Incube LLC",
