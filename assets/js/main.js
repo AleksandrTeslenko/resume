@@ -100,6 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { name: "Bootstrap", category: "frontend" },
         { name: "jQuery", category: "frontend" },
         { name: "VisJS", category: "frontend" },
+        { name: "FusionCharts", category: "frontend" },
 
         { name: "PHP", category: "backend" },
         { name: "Slim Framework", category: "backend" },
@@ -156,7 +157,23 @@ document.addEventListener('DOMContentLoaded', function () {
             image: "./assets/img/site2.png",
             technologies: ["HTML5", "CSS3", "JavaScript"],
             liveLink: "https://aleksandrteslenko.github.io/my-valentine",
-            repoLink: "https://aleksandrteslenko.github.io/my-valentine"
+            repoLink: "https://github.com/AleksandrTeslenko/my-valentine"
+        },
+        {
+            title: "Two-Factor Authentication (2FA) Demo with Microsoft Authenticator",
+            description: "A demonstration project implementing secure Two-Factor Authentication (2FA) using Microsoft Authenticator and the TOTP standard. The application includes QR code generation, secret key provisioning, and one-time password verification. This project showcases integration of modern authentication mechanisms to enhance security in web applications.",
+            image: "./assets/img/site3.png",
+            technologies: ["PHP", "HTML5", "CSS3", "JavaScript", "GuzzleHttp"],
+            liveLink: "https://aleksandrteslenko.github.io/2fa",
+            repoLink: "https://github.com/AleksandrTeslenko/2fa"
+        },
+        {
+            title: "Genius Fullstack Course Projects",
+            description: "A set of practice projects developed during a full-stack web development course. The project focuses on building responsive web interfaces using HTML, CSS, and JavaScript, implementing interactive UI components, and applying modern web development practices. The work is still in progress as part of the ongoing learning program.",
+            image: "./assets/img/site4.png",
+            technologies: ["HTML5", "CSS3", "SCSS3", "JavaScript"],
+            liveLink: "https://aleksandrteslenko.github.io/genius-fullstack-course",
+            repoLink: "https://github.com/AleksandrTeslenko/genius-fullstack-course"
         }
     ];
 
