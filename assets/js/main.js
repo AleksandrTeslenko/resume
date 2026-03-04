@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function () {
             title: "Personal Portfolio & Resume Website",
             description: "A modern responsive developer portfolio built with HTML, CSS, and JavaScript. The website presents my projects, technical stack, and professional experience with optimized performance and clean UI design.",
             image: "./assets/img/site1.png",
-            technologies: ["HTML5", "CSS3", "JavaScript"],
+            technologies: ["JavaScript", "HTML5", "CSS3"],
             liveLink: "https://aleksandrteslenko.github.io/resume",
             repoLink: "https://github.com/AleksandrTeslenko/resume"
         },
@@ -155,15 +155,15 @@ document.addEventListener('DOMContentLoaded', function () {
             title: "Valentine's Day Interactive Love Page",
             description: "A creative single-page website built as a digital Valentine’s card. The project includes animated UI effects, smooth transitions, and interactive elements implemented with vanilla JavaScript, showcasing front-end creativity and clean responsive layout.",
             image: "./assets/img/site2.png",
-            technologies: ["HTML5", "CSS3", "JavaScript"],
+            technologies: ["JavaScript", "HTML5", "CSS3"],
             liveLink: "https://aleksandrteslenko.github.io/my-valentine",
             repoLink: "https://github.com/AleksandrTeslenko/my-valentine"
         },
         {
-            title: "Two-Factor Authentication (2FA) Demo with Microsoft Authenticator",
+            title: "Two-Factor Authentication (2FA) demo with Microsoft Authenticator",
             description: "A demonstration project implementing secure Two-Factor Authentication (2FA) using Microsoft Authenticator and the TOTP standard. The application includes QR code generation, secret key provisioning, and one-time password verification. This project showcases integration of modern authentication mechanisms to enhance security in web applications.",
             image: "./assets/img/site3.png",
-            technologies: ["PHP", "HTML5", "CSS3", "JavaScript", "GuzzleHttp"],
+            technologies: ["PHP", "JavaScript", "HTML5", "CSS3", "GuzzleHttp"],
             liveLink: "https://aleksandrteslenko.github.io/2fa",
             repoLink: "https://github.com/AleksandrTeslenko/2fa"
         },
@@ -171,9 +171,17 @@ document.addEventListener('DOMContentLoaded', function () {
             title: "Genius Fullstack Course Projects",
             description: "A set of practice projects developed during a full-stack web development course. The project focuses on building responsive web interfaces using HTML, CSS, and JavaScript, implementing interactive UI components, and applying modern web development practices. The work is still in progress as part of the ongoing learning program.",
             image: "./assets/img/site4.png",
-            technologies: ["HTML5", "CSS3", "SCSS3", "JavaScript"],
+            technologies: ["JavaScript", "HTML5", "CSS3", "SCSS3"],
             liveLink: "https://aleksandrteslenko.github.io/genius-fullstack-course",
             repoLink: "https://github.com/AleksandrTeslenko/genius-fullstack-course"
+        },
+        {
+            title: "Employee Task & Workflow Management Internal System",
+            description: "The project is based on everyday work processes. Namely, it displays a list of company employees, their data, a list of current tasks assigned to each of them. Each task has its own name, description, link to the resources page, priority, status, change history, responsible for execution and verification.",
+            image: "./assets/img/site5.png",
+            technologies: ["PHP", "MySQL", "JavaScript", "HTML5", "CSS3", "SCSS3"],
+            liveLink: "https://aleksandrteslenko.github.io/meeting-tasks",
+            repoLink: "https://github.com/AleksandrTeslenko/meeting-tasks"
         }
     ];
 
