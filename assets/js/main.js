@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
         document.body.classList.toggle('dark-theme', savedTheme === 'dark');
-        // Update radio button selection
         document.getElementById(savedTheme).checked = true;
     }
 
@@ -15,13 +14,10 @@ document.addEventListener('DOMContentLoaded', function () {
         radio.addEventListener('change', function () {
             const isDark = this.value === 'dark';
             document.body.classList.toggle('dark-theme', isDark);
-
-            // Save theme preference
             localStorage.setItem('theme', this.value);
         });
     });
 
-    // Set current year in footer
     document.getElementById('current-year').textContent = new Date().getFullYear();
 
     // Education data
@@ -183,12 +179,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const expItem = document.createElement('div');
         expItem.classList.add('experience-item', 'fade-in');
 
-        // Create responsibilities list HTML
         const responsibilitiesHTML = exp.responsibilities.map(resp =>
             `<li>${resp}</li>`
         ).join('');
 
-        // Create technologies HTML
         const technologiesHTML = exp.technologies.map(tech =>
             `<span class="tech-tag">${tech}</span>`
         ).join('');
@@ -326,9 +320,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Add scroll event listener
     window.addEventListener('scroll', handleScrollAnimation);
-
-    // Trigger once on load
     handleScrollAnimation();
 });
