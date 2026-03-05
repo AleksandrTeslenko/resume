@@ -25,10 +25,10 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             institution: "NATIONAL TECHNICAL UNIVERSITY \"KHARKIV POLYTECHNIC INSTITUTE\"",
             degree: "Specialist's Degree",
-            field: "Specialized computer systems",
+            field: "Specialized Computer Systems",
             startDate: "September 2011",
             endDate: "January 2017",
-            description: "Graduate Diploma specialist with honors in 2017, specialty \"Specialized computer cystems\" professional qualification \"computer systems analyst\""
+            description: "Graduate Diploma specialist with honors in 2017, specialty \"Specialized Computer Systems\" professional qualification \"computer systems analyst\""
         },
         {
             institution: "Courses",
@@ -75,8 +75,8 @@ document.addEventListener('DOMContentLoaded', function () {
             startDate: "March 2017",
             endDate: "May 2017",
             responsibilities: [
-                "Developed and support of online stores based on CMS Webasyst, OpenCart, Wordpress, Bitrix",
-                "Writing a plug-in for an online store",
+                "Development and support of online stores based on CMS Webasyst, OpenCart, WordPress, Bitrix.",
+                "Writing a plug-in for an online store.",
             ],
             technologies: ["Webasyst", "OpenCart", "Wordpress", "Bitrix", "JavaScript", "PHP", "HTML5", "CSS3", "MySQL"]
         }
