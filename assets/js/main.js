@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const skillsData = [
         { name: "PHP", category: "core" },
         { name: "Slim Framework", category: "core" },
-        { name: "HTML5/CSS3", category: "core" },
+        { name: "HTML5/CSS3/SCSS3", category: "core" },
         { name: "JavaScript", category: "core" },
         { name: "Ext JS", category: "core" },
         { name: "REST API", category: "core" },
