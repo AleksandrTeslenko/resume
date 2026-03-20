@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
             description: "Graduate Diploma specialist with honors in 2017, specialty \"Specialized Computer Systems\" professional qualification \"computer systems analyst\""
         },
         {
-            institution: "Courses",
+            institution: "English сourses",
             degree: "",
             field: "",
             startDate: "2014",
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
             description: "English courses \"American English Center\""
         },
         {
-            institution: "Courses",
+            institution: "Programming сourses",
             degree: "",
             field: "",
             startDate: "2016",

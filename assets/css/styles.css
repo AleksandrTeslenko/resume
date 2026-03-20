@@ -33,10 +33,13 @@
     --card-background: #fff;
     --card-border: #e5e7eb;
     /* --header-background: #f9fafb; */
-    --header-background: azure;
+    /* --header-background: azure; */
+    --header-background: #c2d2e3;
     --transition: all 0.3s ease;
     --profile-info-color: dimgray;
     --primary-color-link: #3b82f6;
+    --section-list-header-background-color: #121c2e;
+    --section-list-content-background-color: #12233c;
 }
 
 .dark-theme {
@@ -52,9 +55,11 @@
     --shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     --card-background: #1f2937;
     --card-border: #374151;
-    --header-background: #1f2937;
+    --header-background: #16335d;
     --profile-info-color: lightsteelblue;
     --primary-color-link: #e5e7eb;
+    --section-list-header-background-color: #121c2e;
+    --section-list-content-background-color: #12233c;
 }
 
 * {
@@ -179,7 +184,8 @@ a:hover {
 .profile-header {
     padding: 40px 0 25px;
     /* background-color: var(--header-background); */
-    background: radial-gradient(#c2d2e3, transparent);
+    /* background: radial-gradient(#c2d2e3, transparent); */
+    background: radial-gradient(var(--header-background), transparent);
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -311,11 +317,12 @@ a:hover {
     border-bottom: 1px solid var(--border-color);
     flex-wrap: wrap;
     gap: 10px;
+    background-color: var(--section-list-header-background-color);
 }
 
 .education-institution {
     font-weight: 600;
-    color: var(--primary-color);
+    color: var(--text-color);
     font-size: 1.1rem;
 }
 
@@ -326,6 +333,7 @@ a:hover {
 
 .education-content {
     padding: 20px;
+    background-color: var(--section-list-content-background-color);
 }
 
 .education-content p {
@@ -365,6 +373,7 @@ a:hover {
     padding: 15px 20px;
     background-color: rgba(0, 0, 0, 0.03);
     border-bottom: 1px solid var(--border-color);
+    background-color: var(--section-list-header-background-color);
 }
 
 .experience-title-row {
@@ -378,7 +387,7 @@ a:hover {
 
 .experience-position {
     font-weight: 600;
-    color: var(--primary-color);
+    color: var(--text-color);
     font-size: 1.1rem;
 }
 
@@ -392,10 +401,12 @@ a:hover {
 
 .experience-company {
     font-weight: 500;
+    color: var(--text-light);
 }
 
 .experience-content {
     padding: 20px;
+    background-color: var(--section-list-content-background-color);
 }
 
 .experience-section {
