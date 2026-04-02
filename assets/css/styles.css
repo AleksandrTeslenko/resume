@@ -38,8 +38,8 @@
     --transition: all 0.3s ease;
     --profile-info-color: dimgray;
     --primary-color-link: #3b82f6;
-    --section-list-header-background-color: #121c2e;
-    --section-list-content-background-color: #12233c;
+    --section-list-header-background-color: #f9fafb;
+    --section-list-content-background-color: #fff;
 }
 
 .dark-theme {
