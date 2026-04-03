@@ -168,12 +168,12 @@ document.addEventListener('DOMContentLoaded', function () {
             repoLink: "https://github.com/AleksandrTeslenko/lending"
         },
         {
-            title: "Two-Factor Authentication (2FA) demo with Microsoft Authenticator",
-            description: "A demonstration project implementing secure Two-Factor Authentication (2FA) using Microsoft Authenticator and the TOTP standard. The application includes QR code generation, secret key provisioning, and one-time password verification. This project showcases integration of modern authentication mechanisms to enhance security in web applications.",
-            image: "./assets/img/site3.png",
-            technologies: ["PHP", "JavaScript", "HTML5", "CSS3", "GuzzleHttp"],
-            liveLink: "https://aleksandrteslenko.github.io/2fa/",
-            repoLink: "https://github.com/AleksandrTeslenko/2fa"
+            title: "Active Directory Password Reset Web Interface",
+            description: "A web-based interface that allows users to securely reset or change their Active Directory passwords. The application provides a simple authentication form for entering user credentials and updating passwords through integration with Active Directory services. The project demonstrates implementation of secure authentication workflows and enterprise directory integration.",
+            image: "./assets/img/site6.png",
+            technologies: ["PHP", "JavaScript", "HTML5", "CSS3"],
+            liveLink: "https://aleksandrteslenko.github.io/AD_change_pswrd/",
+            repoLink: "https://github.com/AleksandrTeslenko/AD_change_pswrd"
         },
         {
             title: "Genius Fullstack Course Projects",
@@ -192,12 +192,12 @@ document.addEventListener('DOMContentLoaded', function () {
             repoLink: "https://github.com/AleksandrTeslenko/meeting-tasks"
         },
         {
-            title: "Active Directory Password Reset Web Interface",
-            description: "A web-based interface that allows users to securely reset or change their Active Directory passwords. The application provides a simple authentication form for entering user credentials and updating passwords through integration with Active Directory services. The project demonstrates implementation of secure authentication workflows and enterprise directory integration.",
-            image: "./assets/img/site6.png",
-            technologies: ["PHP", "JavaScript", "HTML5", "CSS3"],
-            liveLink: "https://aleksandrteslenko.github.io/AD_change_pswrd/",
-            repoLink: "https://github.com/AleksandrTeslenko/AD_change_pswrd"
+            title: "Two-Factor Authentication (2FA) demo with Microsoft Authenticator",
+            description: "A demonstration project implementing secure Two-Factor Authentication (2FA) using Microsoft Authenticator and the TOTP standard. The application includes QR code generation, secret key provisioning, and one-time password verification. This project showcases integration of modern authentication mechanisms to enhance security in web applications.",
+            image: "./assets/img/site3.png",
+            technologies: ["PHP", "JavaScript", "HTML5", "CSS3", "GuzzleHttp"],
+            liveLink: "https://aleksandrteslenko.github.io/2fa/",
+            repoLink: "https://github.com/AleksandrTeslenko/2fa"
         }
     ];
 
