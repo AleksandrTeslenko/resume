@@ -160,6 +160,14 @@ document.addEventListener('DOMContentLoaded', function () {
             repoLink: "https://github.com/AleksandrTeslenko/my-valentine"
         },
         {
+            title: "One-page platform designed",
+            description: "FirstJobStep is a modern one-page platform designed to help students and young professionals find their first job, internship, or part-time opportunity. The platform aggregates job listings and useful resources from trusted employers and popular platforms, making it easier to start a career without prior experience.",
+            image: "./assets/img/site7.png",
+            technologies: ["JavaScript", "HTML5", "CSS3"],
+            liveLink: "https://aleksandrteslenko.github.io/lending/",
+            repoLink: "https://github.com/AleksandrTeslenko/lending"
+        },
+        {
             title: "Two-Factor Authentication (2FA) demo with Microsoft Authenticator",
             description: "A demonstration project implementing secure Two-Factor Authentication (2FA) using Microsoft Authenticator and the TOTP standard. The application includes QR code generation, secret key provisioning, and one-time password verification. This project showcases integration of modern authentication mechanisms to enhance security in web applications.",
             image: "./assets/img/site3.png",
